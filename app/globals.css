@@ -3,6 +3,19 @@
 @tailwind utilities;
 
 
+html,
+body,
+:root{
+  height:100%;
+}
+@font-face {
+  font-family: 'Albert Sans';
+  src: url('/fonts/AlbertSans-Regular.ttf') format('truetype');
+}
+*{
+  font-family: 'Albert Sans', sans-serif;
+}
+
 
  
 @layer base {
